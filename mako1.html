@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mako1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <a href="makohome.html" style="text-decoration: none;"><h2>Home</h2></a>
+    <a href="makostars.html" style="text-decoration: none;"><h2>Stars</h2></a>
+    <a href="makoaboutme.html" style="text-decoration: none;"><h2>About me</h2></a>
+    <a href="mako1.html" style="text-decoration: none;"><h2>Registration</h2></a>
+</header>
+    <section>
+        <div style="display:flex">
+            <form id="main-form">
+           <div class="mb-3">
+             <label for="exampleInputEmail1" class="form-label">Login</label>
+             <input type="email" name="login" class="form-control" placeholder="Come up with a password login" id="exampleInputEmail1" aria-describedby="emailHelp">
+           </div>
+           <div class="mb-3">
+             <label for="exampleInputPassword1" class="form-label">Password</label>
+             <input type="password" name="password" placeholder="Come up with a password"class="form-control" id="exampleInputPassword1">
+           </div>
+           <div class="mb-3">
+               <label for="exampleInputPassword1" class="form-label">Repeat password</label>
+               <input type="password" name="password1" placeholder="Repeat your password"class="form-control" id="exampleInputPassword1">
+             </div>
+           <div style="display: flex;">
+               <div class="input-group-text">
+               <input class="form-check-input" id="sex"type="radio" value="Male" name="high" style="margin-right: 5px;"aria-label="Radio button for following text input"> Male
+               </div>
+   
+               <div class="input-group-text" style="margin-left: 10px;">
+               <input class="form-check-input" id="sex" type="radio"  value="Female"name="high" style="margin-right: 5px;"aria-label="Radio button for following text input"> Female
+               </div>
+               
+           </div><br>
+           <div class="mb-3 form-check">
+             <input type="checkbox" class="form-check-input" id="exampleCheck1">
+             <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+           </div>
+           
+           <button type="submit" class="btn btn-primary">Submit</button><br><br><div id="error" style="color:red"></div>
+   
+         </form>
+         <video src="IMG_1152.MOV" width="300px" height="250px" muted="muted" autoplay="autoplay" ></video>
+        </div>
+    </section>
+
+    
+</body>
+</html>

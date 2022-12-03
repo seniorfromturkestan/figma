@@ -1,0 +1,23 @@
+body{
+    background-image: url(makoimages/bgimage1.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    margin-top: 20px;
+    
+}
+h2{
+    margin-left: 140px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 7.5px;
+    color: white;
+    border-radius: 10px;
+    
+}
+h2:hover{
+    background-color: #24a0ed;
+    
+}

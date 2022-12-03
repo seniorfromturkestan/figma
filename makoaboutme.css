@@ -1,0 +1,42 @@
+body{
+    background-image: url(makoimages/bgimage2.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+header{
+    display: flex;
+    margin-top: 20px;
+    
+}
+h2{
+    margin-left: 140px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 7.5px;
+    color: white;
+    border-radius: 10px;
+    
+}
+h2:hover{
+    background-color: #24a0ed;
+    
+}
+img{
+    border-radius: 150px;
+}
+section{
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.5);
+    width: 700px;
+    height: 450px;
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22.5px;
+    padding: 12.5px;
+   
+}
+  
